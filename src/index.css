@@ -1,0 +1,70 @@
+.mainContainer{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+}
+
+/* Estilo Promociones*/
+
+.estiloFila{
+    background-color: gray;
+    overflow-x: hidden;
+}
+
+/*Estilo footer */
+
+.containerFooter{
+    background-color: rgb(211, 203, 203);
+}
+.redesSociales{
+    display: flex;
+    padding: 10px;   
+}
+
+/* estilo navbar*/
+
+.estiloBtnCarrito{
+    background-color: rgb(213, 205, 205);
+}
+
+.estiloWidget{   
+    margin: 20px;
+}
+
+/* ITEMS DETAIL*/
+
+.tamImagItemDetail{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+
+/* Estilo imagenes Item*/
+
+.probandoo{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+/* Estilo boton flotante wsp*/
+.btn-wsp{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 39px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0,0, 0.3);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    text-decoration:none;
+    color: #0df053;
+    background: #fff;
+}
